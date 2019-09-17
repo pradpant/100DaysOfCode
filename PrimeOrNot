@@ -3,14 +3,13 @@ c=0
 if n>=2:
     print(2,end=' ')
 for i in range (n):
-    t=i
     #print(t)
-    for j in range(2,t):
+    for j in range(2,i):
         #print(j)
-        if t%j==0:
+        if i%j==0:
             break
         else :
             c=c+1
-            print(t,end=' ')
+            print(i,end=' ')
             break
 #print(c+1)
